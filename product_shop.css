@@ -1,0 +1,106 @@
+
+
+#product_shop{
+    border-style: groove;
+    border-color: lightgrey;
+    border-radius: 15px;
+    width: 57%;
+    margin-right: 3%;
+}
+
+#products{
+    font-family:  Arial, sans-serif;
+}
+
+#input_bar,#add_button{
+    float:left;
+    box-sizing: border-box;
+    padding: 5px;
+    color: white;
+}
+
+#input_bar{
+    width:75%;
+    color:black;
+}
+
+#add_button{
+    print-color-adjust: exact;
+    width: 25%;
+    border-radius: 5px;
+    border-color: dodgerblue;
+    box-shadow: 0px 3px royalblue;
+    background-color:dodgerblue;
+}
+
+.input_field, .product_panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product_name, .product_quantity, .product_purchase, .product_name_bought {
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.product_quantity,.product_purchase  {
+    text-align: center;
+}
+
+
+.plus_product{
+    background-color: limegreen;
+    border-color: limegreen;
+    color: white;
+    border-radius: 14px;
+}
+
+.minus_product{
+    background-color:indianred;
+    border-color: indianred;
+    color: white;
+    border-radius: 14px;
+}
+
+.product_name, .product_name_bought {
+    text-align: left;
+}
+
+.product_name_bought{
+    text-decoration:line-through;
+}
+
+
+.product_purchase {
+    text-align: right;
+}
+
+.counter{
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.product_panel{
+    border-top-style: solid;
+    border-top-color: lightgray;
+    border-top-width: 2px;
+}
+#pale_minus{
+    background-color:indianred;
+    border-color: indianred;
+}
+
+.bought{
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 3px darkgray;
+}
+
+.cancel{
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+    border-radius: 5px;
+}

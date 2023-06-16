@@ -1,0 +1,52 @@
+#product_basket{
+    border-style: groove;
+    border-color: lightgrey;
+    border-radius: 15px;
+    width: 38%;
+    margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#left_title, #bought_title, #left_products, #bought_products{
+    border-top-style: solid;
+    border-top-color: lightgray;
+    border-top-width: 2px;
+    padding: 10px;
+}
+
+#left_title, #bought_title{
+    font-weight: bold;
+}
+
+#left_products, #bought_products{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 10px;
+}
+
+.basket_product{
+    position: relative;
+    margin-right: 5px;
+    text-align: left;
+    background-color: lightgray;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#basket_tomatoes{
+    text-decoration:line-through;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.basket_products_number{
+    background-color: darkorange;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+}
