@@ -322,7 +322,7 @@ function editName(name){
             let newName = "";
 
             if (unique && newNameInput.value != "") {
-
+e
                 newName = newNameInput.value;
 
                 let statBox = document.getElementById("product_basket");
