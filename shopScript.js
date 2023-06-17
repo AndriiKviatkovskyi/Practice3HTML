@@ -15,7 +15,7 @@ function addProduct(){
         }
     }
 
-    if(unique) {
+    if(unique && input_product_name != "") {
 
         let product_shop = document.getElementById("products");
 
@@ -321,9 +321,19 @@ function editName(name){
 
             let newName = "";
 
-            if (unique) {
+            if (unique && newNameInput.value != "") {
 
                 newName = newNameInput.value;
+
+                let statBox = document.getElementById("product_basket");
+                let productStats = statBox.getElementsByClassName("basket_product");
+                for(let i= 0; i<productStats.length; i++){
+                    let productName = productStats[i].getElementsByClassName("basket_product_name");
+                    if (productName[0].innerText === initialName){
+                        productName[0].innerText = newName;
+                    }
+                }
+
             } else{
                 newName = initialName;
             }
